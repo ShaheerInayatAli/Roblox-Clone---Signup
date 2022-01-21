@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {max-width: 1920px; margin: 0 auto; background-color: #111214;}
+a {color: #00A2FF;}
+
+/* -------------------- Header -------------------- */
+header {
+    background-image: url('BG.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn-login {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    padding: 12px 36px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: rgba(233, 233, 233, 0.88);
+    border: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 120px 0 0 1rem;
+}
+
+.form {
+    margin-top: 1.5rem;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 2rem;
+    background-color: #232527;
+    max-width: 465px;
+    border-radius: 10px;
+}
+
+.form h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+  
+span {
+  padding: 8px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.value {
+    margin-bottom: 1.5rem;
+}
+
+.value p {
+    letter-spacing: 0.5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+
+.bday-value {
+    color: #B2B3B3;
+    background-color: #0A0B0C;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+.bday-value i {
+    color: #fff;
+}
+
+.month {
+  border-right: 1px solid #707070;
+  border-radius: 8px 0 0 8px;
+  grid-column: span 2 / auto;
+}
+
+.day {
+    border-right: 1px solid #707070;
+}
+.year {
+    border-radius: 0 8px 8px 0;
+}
+
+.form-design {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #0A0B0C;
+    border: 1px solid #707070;
+    color: #fff;
+}
+
+.gender-value {
+    background-color: #0A0B0C;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+.male {
+    border-right: 1px solid #707070;
+}
+
+.male, .female {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policy p {
+    line-height: 136%;
+    letter-spacing: 0.2px;
+    margin-bottom: 1.5rem;
+}
+
+.btn-signup {
+    width: 100%;
+    padding: 12px 36px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: #fff;
+    border: none;
+}
+
+.bot-content h2 {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+.apps {
+    display: flex;
+    gap: 1rem;
+}
+
+.apps img {
+    height: 50px;
+}
+
+footer {
+    background-color: #111214;
+    margin: 0 auto;
+    padding: 30px 534px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #BDBEB9;
+    text-decoration: none;
+    font-size: 1.10rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+footer hr {
+    border: 1px solid #656668;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #BDBEBE;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+.language-container {
+    font-family: 'Lato', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 8px;
+    max-width: 242px;
+    border-radius: 4px;
+    border: 2px solid #656668;
+    color: #BDBEB9;
+}
+
+.language-value {
+    font-weight: 700;
+}
+
+.language-container .fa-chevron-down {
+  font-size: 12px;
+  margin-left: 56px;
+}
+
+.footer-wrapper p {
+    width: 640px;
+}
+
+.footer-wrapper {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
